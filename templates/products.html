@@ -1,0 +1,16 @@
+{% include 'navbar.html' %}
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My Flask App with Bootstrap</title>
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/bootstrap.min.css') }}">
+    </head>
+<body>
+    <h1>Products Page</h1>
+
+
+    <script src="{{ url_for('static', filename='js/bootstrap.min.js') }}"></script>
+</body>
+</html>
+{% include 'footer.html' %}
