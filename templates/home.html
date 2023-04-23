@@ -1,0 +1,30 @@
+{% include 'navbar.html' %}
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Flask App with Bootstrap</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/bootstrap.min.css') }}">
+</head>
+<body class="mx-3"> <!-- Add 'mx-3' class to set margin on right and left -->
+    <h1><center>Modules</center></h1>
+
+
+    <div class="card" style="width: 15rem;">
+        <a href="">
+        <img src="{{ url_for('static', filename='img/core.png') }}" alt="My Image">
+        </a>
+   </div>
+
+    
+
+
+
+    <script src="{{ url_for('static', filename='js/bootstrap.min.js') }}"></script>
+</body>
+</html>
+
+
+{% include 'footer.html' %}

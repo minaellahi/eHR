@@ -1,6 +1,5 @@
 from flask import Flask
 
-
 #mongo imports
 from flask import Flask
 from pymongo import MongoClient
