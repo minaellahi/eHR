@@ -4,6 +4,10 @@ from flask import Flask
 #mongo imports
 from flask import Flask
 from pymongo import MongoClient
+from flask import Flask, render_template, request, redirect
+from flask_sqlalchemy import SQLAlchemy
+from flask_login import LoginManager, UserMixin, login_user, login_required, logout_user
+
 
 
 app = Flask(__name__)
@@ -31,4 +35,4 @@ db = client['your_database_name']
 
 
 if __name__ == '__main__':
-    app.run(debug == 'True')
+    app.run(debug=True)
