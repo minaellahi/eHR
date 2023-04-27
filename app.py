@@ -83,6 +83,10 @@ def dashboard():
     return render_template('dashboard.html', name=current_user.username)
 
 
+#TASK 1. Create "jobs" screen like dashboard()
+#TASK 2. Create "application_status" screen same way
+#TASK 3. Create "test_status" screen same way
+
 @app.route('/logout')
 @login_required
 def logout():
