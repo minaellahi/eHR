@@ -31,7 +31,7 @@ def home():
 """client = MongoClient('mongodb://<hostname>:<port>/')
 db = client['your_database_name']
 """
-
+ 
 
 if __name__ == '__main__':
     app.run(debug=True)
